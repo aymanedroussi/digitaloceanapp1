@@ -6,13 +6,12 @@ import Link from 'next/link';
 const Nav = () => {
   const router = useRouter();
 
-   signout=async()=>{
-    await signOut({redirect: false, callbackUrl: "/dashboard"})
+
 
   }
    
-  function logoutHandler() {
-     signout();
+  const logoutHandler=async()=>{
+     await signOut({redirect: false, callbackUrl: "/dashboard"}
   }
   const { data: session, status } = useSession();
   
