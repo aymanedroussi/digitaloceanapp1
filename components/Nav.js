@@ -12,6 +12,7 @@ const Nav = () => {
    
   const logoutHandler=async()=>{
      await signOut({redirect: false, callbackUrl: "/auth"})
+    router.reload();
   }
   const { data: session, status } = useSession();
   
