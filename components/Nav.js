@@ -6,8 +6,13 @@ import Link from 'next/link';
 const Nav = () => {
   const router = useRouter();
 
+   signout=async()=>{
+    await signOut({redirect: false, callbackUrl: "/dashboard"})
+
+  }
+   
   function logoutHandler() {
-     signOut({ callbackUrl: '/auth' })
+     signout();
   }
   const { data: session, status } = useSession();
   
