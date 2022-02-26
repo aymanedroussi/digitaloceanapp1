@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bluebold{
+    color: dodgerblue;
+    font-weight: bold;
+
+}
+.loginButton{
+    inline-size: -webkit-fill-available;
+}
+
+.paddingSelect{
+    padding-top: 5%;
+}
+.paddingRightRadio{
+    padding-right: 17%;
+}
+.titleLinge{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.marginbuttons{
+    margin-right: 14px;
+}
+.buttonActive{
+    min-inline-size: -webkit-fill-available;
+}
+.spanGreen{
+    color:green
+
+}
+.spanRed{
+color:red
+}
+
+.textBold{
+    font-weight: bold;
+
+}
+.spanOrange{
+color:orange
+}
+.spanBlue{
+color: blue;
+}
