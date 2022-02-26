@@ -7,9 +7,8 @@ const Nav = () => {
   const router = useRouter();
 
   function logoutHandler() {
-     const test=async()=>{await router.replace("/auth")}
-    test();
     signOut();
+    router.replace("/auth")
 
   }
   const { data: session, status } = useSession();
