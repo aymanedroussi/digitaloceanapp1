@@ -17,6 +17,10 @@ export default NextAuth({
     strategy: 'jwt',
     maxAge:3600 // en secondes ( 1 heure )
   },
+    pages: {
+ 
+    signOut: '/auth/signout',// New users will be directed here on first sign in (leave the property out if not of interest)
+  },
   providers: [
     CredentialsProvider({
       async authorize(credentials) {
