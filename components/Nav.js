@@ -8,7 +8,8 @@ const Nav = () => {
 
   function logoutHandler() {
     signOut();
-    router.replace('/dashboard')
+    router.reload()
+    router.push('/dashboard')
   }
   const { data: session, status } = useSession();
   
