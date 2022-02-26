@@ -7,9 +7,7 @@ const Nav = () => {
   const router = useRouter();
 
   function logoutHandler() {
-    signOut();
-    router.replace("/auth")
-
+     signOut({ callbackUrl: '/auth' })
   }
   const { data: session, status } = useSession();
   
