@@ -8,7 +8,7 @@ const Nav = () => {
 
 
 
-  }
+  
    
   const logoutHandler=async()=>{
      await signOut({redirect: false, callbackUrl: "/dashboard"})
