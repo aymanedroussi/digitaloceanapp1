@@ -11,7 +11,7 @@ const Nav = () => {
   
    
   const logoutHandler=async()=>{
-     await signOut({redirect: false, callbackUrl: "/dashboard"})
+     await signOut({redirect: false, callbackUrl: "/auth"})
   }
   const { data: session, status } = useSession();
   
