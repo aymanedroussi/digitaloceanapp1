@@ -8,8 +8,7 @@ const Nav = () => {
 
   function logoutHandler() {
     signOut();
-    router.back();
-    router.replace("http://137.184.188.102/auth")
+
   }
   const { data: session, status } = useSession();
   
