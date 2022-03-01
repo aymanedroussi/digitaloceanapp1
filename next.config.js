@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    MONGODB_URI: "mongodb://localhost:27017/linge",
+    MONGODB_URI: "mongodb://127.0.0.1:27017/linge",
     MONGODB_PATIENT_URI:"mongodb://localhost:27017/dossierpatient",
     SECRET:"LfsZWKdsKRwhz5bS7YOEI0A564a37saF"
     
