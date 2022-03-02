@@ -1,8 +1,8 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    MONGODB_URI: "mongodb://127.0.0.1:27017/linge",
-    MONGODB_PATIENT_URI:"mongodb://127.0.0.1:27017/dossierpatient",
+    MONGODB_URI: "mongodb+srv://adev:adev@cluster0.nphce.mongodb.net/linge?retryWrites=true&w=majority",
+    MONGODB_PATIENT_URI:"mongodb+srv://adev:adev@cluster0.nphce.mongodb.net/dossierpatient?retryWrites=true&w=majority",
     SECRET:"LfsZWKdsKRwhz5bS7YOEI0A564a37saF"
     
     
